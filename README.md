@@ -1,5 +1,4 @@
-# MVT--Project-1.0
-Common Pathways Project 1.0 , OSM, Vespucci, geo-data import, processing and export.
+# CommonPaths Project, Private OSM data pipeline, geo-data import, processing/reconciliation and export.
 
 # *Schedule Daily to Get Changeset Data from Private OSM*
 
