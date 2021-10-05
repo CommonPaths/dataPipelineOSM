@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osmChange version="0.6" generator="Osmosis 0.47.2-3-g11a7c4bd-SNAPSHOT">
+  <modify>
+    <node id="53009977" version="8" timestamp="2020-03-16T15:47:51Z" uid="494122" user="kseltar" changeset="82264638" lat="47.6017194" lon="-122.3365354">
+      <tag k="highway" v="turning_circle"/>
+      <tag k="source" v="test1"/>
+    </node>
+    <node id="30279697" visible="true" version="7" changeset="5044822" timestamp="2010-06-21T18:08:34Z" user="zephyr" uid="121241" lat="47.6084406" lon="-122.3319920">
+      <tag k="crossing" v="traffic_signals"/>
+      <tag k="highway" v="traffic_signals"/>
+    </node>
+  </modify>
+  <delete>
+    <node id="1593557814" version="3" timestamp="2020-03-18T14:49:26Z" uid="463504" user="erickdeoliveiraleal" changeset="82352613" lat="-11.9035687" lon="-61.7788031"/>
+  </delete>
+  <delete>
+    <node id="1624091832" version="2" timestamp="2020-03-18T14:22:07Z" uid="2888253" user="mapman44" changeset="82351598" lat="43.6027497" lon="-79.5472993"/>
+  </delete>
+</osmChange>

@@ -1,0 +1,31 @@
+<!--HTML page view --> <link 
+href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Open+Sans&display=swap" 
+rel="stylesheet"> <style type="text/css">
+	*{
+	background-color: #1E1E1E;
+	font-family: 'Open Sans', sans-serif;
+	
+}
+.content {
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.h2{
+	color: #C9C9C9 ;
+}
+.log{
+	color: #C9C9C9 ;
+}
+.button {
+	color: white;
+	font-size: 20px;
+	background-color: #AB6230;
+	width: 200px;
+	height: 50px;
+	border-style: none;
+	border-radius: 10px;
+}
+</style> <div class="content"> <h2 class="h2">Processing Export</h2> <pre><p class="log"><%= 
+@formstring %></p></pre> <%= link_to 'Download Export Changeset OSC File', 
+export_ctrl_download_osc_url, class: 'button' %>
+</div>	
